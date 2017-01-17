@@ -4,8 +4,7 @@ import datetime
 today = str(datetime.datetime.now()).split(' ')[0]
 
 sites = {'Reverb': 'http://reverb.com/',
-         'SweetWater':'http://www.sweetwater.com/',
-         'GuitarCenter': 'http://www.guitarcenter.com/'}
+         'SweetWater':'http://www.sweetwater.com/'}
 
 for name, link in sites.items():
     response = requests.get(link)
