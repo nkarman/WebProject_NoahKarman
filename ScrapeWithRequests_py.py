@@ -3,7 +3,7 @@ import datetime
 
 today = str(datetime.datetime.now()).split(' ')[0]
 
-sites = {'Reverb': 'http://reverb.com/',
+sites = {'Reverb': 'http://reverb.com/marketplace/',
          'SweetWater':'http://www.sweetwater.com/'}
 
 for name, link in sites.items():
@@ -13,4 +13,4 @@ for name, link in sites.items():
     fileName = today + '.' + name + '.html'
     outfile = open(fileName, "wb")
     outfile.write(html)
-    outfile.close()
+    outfile.close()http://www.guitarcenter.com
