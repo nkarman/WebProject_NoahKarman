@@ -3,8 +3,10 @@ import datetime
 
 today = str(datetime.datetime.now()).split(' ')[0]
 
-sites = {'Reverb': 'http://reverb.com/marketplace/',
-         'SweetWater':'http://www.sweetwater.com/'}
+# Library of Used Instruments and Music gear
+sites = {'Reverb': 'https://reverb.com/marketplace?condition=used',
+         'SweetWater': 'https://tradingpost.sweetwater.com',
+         'GuitarCenter': 'http://www.guitarcenter.com/Used/'}
 
 for name, link in sites.items():
     response = requests.get(link)
@@ -13,4 +15,4 @@ for name, link in sites.items():
     fileName = today + '.' + name + '.html'
     outfile = open(fileName, "wb")
     outfile.write(html)
-    outfile.close()http://www.guitarcenter.com
+    outfile.close()
