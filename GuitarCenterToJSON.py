@@ -51,8 +51,7 @@ for position in soupGCUsed.find_all('div', class_='productDetails'):
                      'productCondition': condition,
                      'productPrice': price,
                      'productLocation': location,
-                     'productLink': link,
-                     'productCategory': category})
+                     'productLink': link})
 
 # Write response to JSON file
 postingsFile = today + '.GCUSed.json'
