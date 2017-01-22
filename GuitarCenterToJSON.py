@@ -40,11 +40,11 @@ for position in soupGCUsed.find_all('div', class_='productDetails'):
     location = locationPosition.contents[3].string
 
     # attempt to open productPage URL. it looks like guitarCenter is blocking me out :(
-    productPage = requests.get(link)
-    soupProductPage = BeautifulSoup(productPage.content, 'lxml')
+    #productPage = requests.get(link)
+    #soupProductPage = BeautifulSoup(productPage.content, 'lxml')
 
-    categoryPosition = soupProductPage.find("a", class_='category')
-    category = categoryPosition.contents[0]
+    #categoryPosition = soupProductPage.find("a", class_='category')
+    #category = categoryPosition.contents[0]
 
     # Make changes to response for GCUsed
     response.append({'productTitle': title,
