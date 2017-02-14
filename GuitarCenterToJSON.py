@@ -2,7 +2,7 @@ import requests
 import datetime
 from bs4 import BeautifulSoup
 import json
-import csv
+from selenium import webdriver
 
 today = str(datetime.datetime.now().date())
 
@@ -22,10 +22,10 @@ soupGCUsed = BeautifulSoup(pageGCUsed.content, 'lxml')
 currPageNum = 100
 totalProducts = soupGCUsed.find('var', class_='searchTotalResults').contents[0]
 totalProducts = int(totalProducts)
-#last page of data
+# last page of data
 endPageNum = totalProducts-100
 
-#populates list of urls with every url for every page containing used gear
+# populates list of urls with every url for every page containing used gear
 while currPageNum < endPageNum:
     currPageNum += 100
     nextURL = 'http://www.guitarcenter.com/Used/#pageName=used-page&N=1076&Nao=' + str(currPageNum) + '&recsPerPage=100&v=g&postalCode=37212&radius=100&profileCountryCode=US&profileCurrencyCode=USD'
@@ -74,7 +74,7 @@ for url in URLs:
 
 
 # Write response to JSON file
-postingsFile = today + '.GCUSed.json'
+postingsFile = '/Users/NoahKArman/Documents/CSC 3130/WebProject_NoahKarman/JSON/' + today + '.GCUSed.json'
 
 with open(postingsFile, 'w') as outfile:
     json.dump(response, outfile, sort_keys=True, indent=2)
