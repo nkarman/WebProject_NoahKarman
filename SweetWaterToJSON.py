@@ -29,8 +29,8 @@ for pageNum in range(1,lastPage+2):
     sweetWaterURL = 'https://tradingpost.sweetwater.com/call/TP_Date/desc/' + str(pageNum)
 
     # for loop for parsing
-    #for position in soupSW.find_all('td', class_='item'):
     for position in soupSW.find_all('tr', bgcolor='ffffff'):
+        # get positions for item, date posted, and product price
         itemPosition = position.contents[1]
         datePosition = position.contents[3]
         pricePosition = position.contents[5]
@@ -42,6 +42,7 @@ for pageNum in range(1,lastPage+2):
         location = itemPosition.contents[4]
 
         itemHTML = str(itemHTML)
+        # split item into array of strings containing info on item
         itemElements = itemHTML.split("-")
 
         # Try-catch for index out of bounds - this occurs if itemHTML is not actually an item to parse
@@ -52,7 +53,6 @@ for pageNum in range(1,lastPage+2):
             if location.__len__() > 20:
                 location = "n/a"
 
-
             # item condition is always first string in itemElements
             condition = itemElements[1]
             if condition == 'likenew':
@@ -61,15 +61,12 @@ for pageNum in range(1,lastPage+2):
             # item Make is always second string in itemElements
             make = itemElements[2]
 
-            description = 'n/a'
-            # item Model is made up of several strings in itemElements, but is delimited by "
 
+            # item Model is made up of several strings in itemElements, but is delimited by "
             trash, productLinkEl = str(itemHTML).split("href=\"/")
             productLink, trash = productLinkEl.split("\"><img")
             productLink = urllib.parse.quote_plus(productLink)
             productLink = 'https://tradingpost.sweetwater.com/' + productLink
-
-            print(productLink)
 
             model = ""
 
@@ -83,7 +80,20 @@ for pageNum in range(1,lastPage+2):
 
             price = str(pricePosition.contents[0].contents[0])
 
-            print(condition, title, description, location, price)
+            # get info from each product's individual page
+            productPage = browser.get(productLink)
+            productSoup = BeautifulSoup(browser.page_source, 'lxml')
+
+            catPosition = productSoup.find('td', class_='info')
+            category = catPosition.contents[1].contents[14].string
+            productID = catPosition.contents[1].contents[23].string
+
+            descPosition = productSoup.find('div', class_='desc')
+            description = descPosition.contents[2].string
+
+
+
+            print(condition, title, description, location, price, category,)
 
 
         except (IndexError, AttributeError, ValueError):
@@ -95,7 +105,10 @@ for pageNum in range(1,lastPage+2):
                         'productCondition': condition,
                              'productPrice': price,
                          'productLocation': location,
-                             'productLink': productLink})
+                             'productLink': productLink,
+                             'productCategory': category,
+                             'productID': productID,
+                             'productDescription': description})
 
     # check if current page is the last available
     if (requests.get(sweetWaterURL) is None):
