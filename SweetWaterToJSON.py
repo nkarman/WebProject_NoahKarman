@@ -10,7 +10,7 @@ today = str(datetime.datetime.now().date())
 
 # initialize array of responses to be appended to JSON
 response = []
-browser = webdriver.Chrome()
+browser = webdriver.Chrome('/Users/NoahKArman/Documents/CSC 3130/WebProject_NoahKarman/chromedriver')
 
 # retrieve how many pages of items there are
 sweetWaterURL = 'https://tradingpost.sweetwater.com/call/TP_Date/desc/1'
