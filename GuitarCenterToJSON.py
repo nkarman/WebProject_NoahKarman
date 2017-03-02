@@ -8,6 +8,7 @@ today = str(datetime.datetime.now().date())
 
 # Create a list of dictionaries for JSON Object
 response = []
+browser = webdriver.Chrome('/Users/NoahKArman/Documents/CSC 3130/WebProject_NoahKarman/chromedriver')
 
 # Create a list of urls, and perform parsing for every URL
 URLs = []
@@ -16,8 +17,8 @@ URLs = []
 gcUsedURL = 'http://www.guitarcenter.com/Used/'
 URLs.append(gcUsedURL)
 
-pageGCUsed = requests.get(gcUsedURL)
-soupGCUsed = BeautifulSoup(pageGCUsed.content, 'lxml')
+pageGCUsed = browser.get(gcUsedURL)
+soupGCUsed = BeautifulSoup(browser.page_source, 'lxml')
 # currPageNum will always have initial value of 100, this is the required value for the second page
 currPageNum = 100
 totalProducts = soupGCUsed.find('var', class_='searchTotalResults').contents[0]
@@ -26,9 +27,10 @@ totalProducts = int(totalProducts)
 endPageNum = totalProducts-100
 
 # populates list of urls with every url for every page containing used gear
-while currPageNum < endPageNum:
+# while currPageNum < endPageNum:
+while currPageNum < 500:
     currPageNum += 100
-    nextURL = 'http://www.guitarcenter.com/Used/#pageName=used-page&N=1076&Nao=' + str(currPageNum) + '&recsPerPage=100&v=g&postalCode=37212&radius=100&profileCountryCode=US&profileCurrencyCode=USD'
+    nextURL = 'http://www.guitarcenter.com/Used/#pageName=used-page&N=1076&Nao=' + str(currPageNum)
     URLs.append(nextURL)
 # parse data for every URL in list
 for url in URLs:
@@ -58,21 +60,49 @@ for url in URLs:
         #nextLink
         nextLinkPosition = position.find('div', class_='searchPagination')
 
-        # attempt to open productPage URL. it looks like guitarCenter is blocking me out :(
-        #productPage = requests.get(link)
-        #soupProductPage = BeautifulSoup(productPage.content, 'lxml')
+        # category
+        category = ""
+        lcTitle = title.lower()
 
-        #categoryPosition = soupProductPage.find("a", class_='category')
-        #category = categoryPosition.contents[0]
+        if "guitar" in lcTitle or "bass guitar" in lcTitle:
+            category = "Guitar & Bass"
+        if "mic" in lcTitle:
+            category = "Microphones"
+        # Amps & effects
+        if "amp" in lcTitle or "pedal" in lcTitle or "footswitch" in lcTitle:
+            category = "Amps & Effects"
+        if "cymbal" in lcTitle or "snare" in lcTitle or "kick" in lcTitle or "drum" in lcTitle:
+            category = "Drums & Percussion"
+        # Computer Audio
+        # Keyboard & MIDI
+        if "midi" in lcTitle or "keyboard" in lcTitle or "piano" in lcTitle:
+            category = "Keyboard & MIDI"
+        # Mixers
+        if "mixer" in lcTitle:
+            category = "Mixers"
+        # recorders and PLayers
+        if "interface" in lcTitle:
+            category = "Recorders & Players"
+        # Signal processing
+        if ("compressor" in lcTitle and category != "Amps & Effects") or ("equalizer" in lcTitle and category != "Amps & Effects"):
+            category = "Signal Processing"
+        # Speakers and Monitors
+        if "speaker" in lcTitle or "monitor" in lcTitle:
+            category = "Speakers & Monitors"
+
+        if category == "":
+            category ="Other"
 
         # Make changes to response for GCUsed
         response.append({'productTitle': title,
                        'productCondition': condition,
                         'productPrice': price,
                         'productLocation': location,
-                        'productLink': link})
+                        'productLink': link,
+                        'productCategory': category})
+                        # category, ID still needed, description
 
-
+browser.quit()
 # Write response to JSON file
 postingsFile = '/Users/NoahKArman/Documents/CSC 3130/WebProject_NoahKarman/JSON/' + today + '.GCUSed.json'
 
