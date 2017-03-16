@@ -75,7 +75,7 @@ for url in urlsToParse:
             productRef = position.contents[2].contents[4].contents[0].attrs['href']
             [trash, productID] = productRef.split("id=")
             productLink = 'http://used.samashmusic.com/item.php?id=' + productID
-        except(IndexError):
+        except(IndexError, AttributeError):
             print('ruh-roh raggy, index out of bounds!')
 
         if ('guitar' in url or 'bass' in url) and 'effects' not in url:
@@ -97,6 +97,7 @@ for url in urlsToParse:
                          'productLink': str(productLink),
                          'productCategory': str(category),
                          'productID': str(productID),
+                         'productCondition': 'n/a',
                          'productDescription': str(description)})
 
 
