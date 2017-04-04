@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff734190-e6e3-4172-b1f6-4e091511ac90" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JSON/.ipynb_checkpoints/CreatingADataProject-Outline-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-Outline-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JSON/.ipynb_checkpoints/CreatingADataProject-Outline.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-Outline.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JSON/.ipynb_checkpoints/CreatingADataProject-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JSON/.ipynb_checkpoints/Sweetwater-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Sweetwater-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JSON/.ipynb_checkpoints/Sweetwater.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Sweetwater.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JSON/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JSON/Sweetwater.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/Sweetwater.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jupyter Notebooks/SamAsh.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-Outline-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-Outline-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Sweetwater-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Sweetwater-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
     </list>
     <ignored path="WebProject_NoahKarman.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatingADataProject-Outline-checkpoint.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreatingADataProject-Outline-checkpoint.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-Outline-checkpoint.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SamAsh.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/SamAsh.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="21" />
             </state>
           </provider>
         </entry>
@@ -119,16 +127,6 @@
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-03-14.SA_used.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSON/2017-03-14.SA_used.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64350">
-              <caret line="4290" column="39" selection-start-line="4290" selection-start-column="39" selection-end-line="4290" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +166,7 @@
         <option value="$PROJECT_DIR$/JSON/.ipynb_checkpoints/Sweetwater.ipynb" />
         <option value="$PROJECT_DIR$/SamAshtoJSON.py" />
         <option value="$PROJECT_DIR$/scheduleTest.sh" />
+        <option value="$PROJECT_DIR$/Jupyter Notebooks/SamAsh.ipynb" />
       </list>
     </option>
   </component>
@@ -239,6 +238,20 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Jupyter Notebooks">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WebProject_NoahKarman">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="JSON">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -259,6 +272,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Jupyter Notebooks" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -782,13 +796,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ScrapeWithRequests_py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APNewBriefs.py" />
     <entry file="file://$PROJECT_DIR$/2017-01-17.GuitarCenter.html" />
     <entry file="file://$PROJECT_DIR$/ScrapeWithRequests_py.py">
@@ -999,7 +1006,7 @@
     <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Sweetwater-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="-1" />
+          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -1013,14 +1020,21 @@
     <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="-1" />
+          <selected id="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-Outline-checkpoint.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="-1" />
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/SamAsh.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="21" />
         </state>
       </provider>
     </entry>
