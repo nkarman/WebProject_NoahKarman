@@ -13046,7 +13046,7 @@
     "productID": "86931",
     "productLink": "n/a",
     "productLocation": "$1,149.99",
-    "productPrice": "<a href=\"item.php?id=86489\"><img alt=\"Breedlove - D25 Pro\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/UB657110886489.JPG&amp;w=120\"/></a>",
+    "productPrice": "$1,149.99",
     "productTitle": "Taylor TAYLOR 214 CE-G"
   },
   {
@@ -17535,8 +17535,8 @@
     "productDescription": "Super Vintage kits produce an absolutely killer, fat, warm tone in high, low or medium tuning.",
     "productID": "75622",
     "productLink": "n/a",
-    "productLocation": "$2,499.00",
-    "productPrice": "<a href=\"item.php?id=75600\"><img alt=\"Mapex - Orion\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/UM63ORION75600.JPG&amp;w=120\"/></a>",
+    "productLocation": "n/a",
+    "productPrice": "$2,499.00",
     "productTitle": "GMS Super Vintage 3 Piece Kit"
   },
   {
@@ -18255,8 +18255,8 @@
     "productDescription": "Used Pearl Championship Series 26x14 Marching Bass Drum in White. Mint condition less carrier.",
     "productID": "38459",
     "productLink": "n/a",
-    "productLocation": "$699.99",
-    "productPrice": "<a href=\"item.php?id=33691\"><img alt=\"Mapex - M SERIES\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/UM597511033691.jpg&amp;w=120\"/></a>",
+    "productLocation": "n/a",
+    "productPrice": "$699.99",
     "productTitle": "Pearl Championship Series"
   },
   {
@@ -19548,16 +19548,6 @@
     "productLocation": "Springfield, NJ",
     "productPrice": "$199.99",
     "productTitle": "Gretsch Taylor Hawkins"
-  },
-  {
-    "productCategory": "Drums & Percussion",
-    "productCondition": "n/a",
-    "productDescription": "None",
-    "productID": "74436",
-    "productLink": "n/a",
-    "productLocation": "n/a",
-    "productPrice": "<span class=\"cS1\" style=\"color:#9e0b0f; font-size:18px; float:right;\">$599.95</span>",
-    "productTitle": "Drum Workshop 14x5in Maple Snare"
   },
   {
     "productCategory": "Drums & Percussion",
@@ -25082,16 +25072,6 @@
   {
     "productCategory": "Keyboard & MIDI",
     "productCondition": "n/a",
-    "productDescription": "\u00a0",
-    "productID": "75620",
-    "productLink": "n/a",
-    "productLocation": "n/a",
-    "productPrice": "<span class=\"cS1\" style=\"color:#9e0b0f; font-size:18px; float:right;\">$1,299.00</span>",
-    "productTitle": "Korg Krome 88-Key Music Workstation"
-  },
-  {
-    "productCategory": "Keyboard & MIDI",
-    "productCondition": "n/a",
     "productDescription": "n/a",
     "productID": "75620",
     "productLink": "n/a",
@@ -26275,8 +26255,8 @@
     "productDescription": "\u00a0",
     "productID": "85965",
     "productLink": "n/a",
-    "productLocation": "$149.99",
-    "productPrice": "<a href=\"item.php?id=84685\"><img alt=\"Samson - 5KITDM\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/US8KITDMXX84685.JPG&amp;w=120\"/></a>",
+    "productLocation": "n/a",
+    "productPrice": "$149.99",
     "productTitle": "Sontronics Sigma Ribbon Microphone"
   },
   {

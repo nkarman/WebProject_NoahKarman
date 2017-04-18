@@ -12415,8 +12415,8 @@
     "productDescription": "This beauty right here is the Taylor 214 CE-G Grand Auditorium and it in\u00a0great condition!",
     "productID": "86931",
     "productLink": "n/a",
-    "productLocation": "$1,149.99",
-    "productPrice": "<a href=\"item.php?id=86489\"><img alt=\"Breedlove - D25 Pro\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/UB657110886489.JPG&amp;w=120\"/></a>",
+    "productLocation": "n/a",
+    "productPrice": "$1,149.99",
     "productTitle": "Taylor TAYLOR 214 CE-G"
   },
   {
@@ -16935,8 +16935,8 @@
     "productDescription": "Super Vintage kits produce an absolutely killer, fat, warm tone in high, low or medium tuning.",
     "productID": "75622",
     "productLink": "n/a",
-    "productLocation": "$2,499.00",
-    "productPrice": "<a href=\"item.php?id=75600\"><img alt=\"Mapex - Orion\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/UM63ORION75600.JPG&amp;w=120\"/></a>",
+    "productLocation": "n/a",
+    "productPrice": "$2,499.00",
     "productTitle": "GMS Super Vintage 3 Piece Kit"
   },
   {
@@ -17586,7 +17586,7 @@
     "productID": "38459",
     "productLink": "n/a",
     "productLocation": "$699.99",
-    "productPrice": "<a href=\"item.php?id=33691\"><img alt=\"Mapex - M SERIES\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/UM597511033691.jpg&amp;w=120\"/></a>",
+    "productPrice": "$699.99",
     "productTitle": "Pearl Championship Series"
   },
   {
@@ -17965,8 +17965,8 @@
     "productDescription": "Beautiful condition on this snare! Virtually no signs of wear.",
     "productID": "94643",
     "productLink": "n/a",
-    "productLocation": "$373.75",
-    "productPrice": "<a href=\"item.php?id=94346\"><img alt=\"Drum Workshop - 8x14 Performance\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/UD590592994346.jpg&amp;w=120\"/></a>",
+    "productLocation": "n/a",
+    "productPrice": "$373.75",
     "productTitle": "Drum Workshop Edge Snare Ebony Satin 7x13"
   },
   {
@@ -19112,16 +19112,6 @@
   {
     "productCategory": "Drums & Percussion",
     "productCondition": "n/a",
-    "productDescription": "None",
-    "productID": "74436",
-    "productLink": "n/a",
-    "productLocation": "n/a",
-    "productPrice": "<span class=\"cS1\" style=\"color:#9e0b0f; font-size:18px; float:right;\">$599.95</span>",
-    "productTitle": "Drum Workshop 14x5in Maple Snare"
-  },
-  {
-    "productCategory": "Drums & Percussion",
-    "productCondition": "n/a",
     "productDescription": "n/a",
     "productID": "74436",
     "productLink": "n/a",
@@ -19806,7 +19796,7 @@
     "productID": "96614",
     "productLink": "n/a",
     "productLocation": "$34.80",
-    "productPrice": "<a href=\"item.php?id=95731\"><img alt=\"Meinl - MGT Percussion table\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/R750095731.JPG&amp;w=120\"/></a>",
+    "productPrice": "$34.80",
     "productTitle": "Remo 14x25 Infinity Mondo"
   },
   {
@@ -22782,16 +22772,6 @@
   {
     "productCategory": "Amps & Effects",
     "productCondition": "n/a",
-    "productDescription": "None",
-    "productID": "95749",
-    "productLink": "n/a",
-    "productLocation": "n/a",
-    "productPrice": "<span class=\"cS1\" style=\"color:#9e0b0f; font-size:18px; float:right;\">$399.99</span>",
-    "productTitle": "Markbass Little Mark III"
-  },
-  {
-    "productCategory": "Amps & Effects",
-    "productCondition": "n/a",
     "productDescription": "n/a",
     "productID": "95749",
     "productLink": "n/a",
@@ -24372,16 +24352,6 @@
   {
     "productCategory": "Keyboard & MIDI",
     "productCondition": "n/a",
-    "productDescription": "\u00a0",
-    "productID": "75620",
-    "productLink": "n/a",
-    "productLocation": "n/a",
-    "productPrice": "<span class=\"cS1\" style=\"color:#9e0b0f; font-size:18px; float:right;\">$1,299.00</span>",
-    "productTitle": "Korg Krome 88-Key Music Workstation"
-  },
-  {
-    "productCategory": "Keyboard & MIDI",
-    "productCondition": "n/a",
     "productDescription": "n/a",
     "productID": "75620",
     "productLink": "n/a",
@@ -25835,8 +25805,8 @@
     "productDescription": "\u00a0",
     "productID": "85965",
     "productLink": "n/a",
-    "productLocation": "$149.99",
-    "productPrice": "<a href=\"item.php?id=84685\"><img alt=\"Samson - 5KITDM\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/US8KITDMXX84685.JPG&amp;w=120\"/></a>",
+    "productLocation": "n/a",
+    "productPrice": "$149.99",
     "productTitle": "Sontronics Sigma Ribbon Microphone"
   },
   {
@@ -28315,8 +28285,8 @@
     "productDescription": "This Analog Alien Twister pedal is in fantastic condition with little to no signs of playwear.",
     "productID": "96497",
     "productLink": "n/a",
-    "productLocation": "$299.99",
-    "productPrice": "<a href=\"item.php?id=96500\"><img alt=\"Analog Alien - Alien Bass Station\" class=\"gear_img\" src=\"thumb.php?filename=http://s3.amazonaws.com/usedimg/UA826339996500.JPG&amp;w=120\"/></a>",
+    "productLocation": "n/a",
+    "productPrice": "$299.99",
     "productTitle": "Analog Alien Twister Fuzz/Distortion/Overdrive"
   },
   {

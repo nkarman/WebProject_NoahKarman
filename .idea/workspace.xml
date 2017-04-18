@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff734190-e6e3-4172-b1f6-4e091511ac90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSON/2017-03-16.SA_used.json" afterPath="$PROJECT_DIR$/JSON/2017-03-16.SA_used.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSON/2017-03-21.SA_used.json" afterPath="$PROJECT_DIR$/JSON/2017-03-21.SA_used.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSON/2017-04-18.SA_used.json" afterPath="$PROJECT_DIR$/JSON/2017-04-18.SA_used.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/SamAsh-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/SamAsh-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Sweetwater-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Sweetwater-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jupyter Notebooks/SamAsh.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/SamAsh.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jupyter Notebooks/Sweetwater.ipynb" afterPath="$PROJECT_DIR$/Jupyter Notebooks/Sweetwater.ipynb" />
@@ -48,12 +49,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-04-18.SA_used.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-04-18.SA_used.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSON/2017-04-18.SA_used.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="12416" column="25" selection-start-line="12416" selection-start-column="25" selection-end-line="12416" selection-end-column="25" />
+            <state relative-caret-position="0">
+              <caret line="24350" column="4" selection-start-line="24350" selection-start-column="4" selection-end-line="24350" selection-end-column="4" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-03-21.SA_used.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSON/2017-03-21.SA_used.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="26269" column="35" selection-start-line="26269" selection-start-column="35" selection-end-line="26269" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreatingADataProject.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/CreatingADataProject.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="17" />
             </state>
           </provider>
         </entry>
@@ -143,6 +163,9 @@
         <option value="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-checkpoint.ipynb" />
         <option value="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/CreatingADataProject-Outline.ipynb" />
         <option value="$PROJECT_DIR$/JSON/2017-03-16.SA_used.json" />
+        <option value="$PROJECT_DIR$/JSON/2017-03-21.SA_used.json" />
+        <option value="$PROJECT_DIR$/JSON/2017-04-18.SA_used.json" />
+        <option value="$PROJECT_DIR$/Jupyter Notebooks/CreatingADataProject.ipynb" />
       </list>
     </option>
   </component>
@@ -200,6 +223,32 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="External Dependencies">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="/">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Users">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="NoahKArman">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Downloads">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="WebProject_NoahKarman">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -214,7 +263,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="JSON">
+            <PATH_ELEMENT USER_OBJECT="Jupyter Notebooks">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -233,14 +282,14 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Jupyter Notebooks" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Jupyter Notebooks" />
       <recent name="$PROJECT_DIR$/JSON/.ipynb_checkpoints" />
       <recent name="$PROJECT_DIR$/JSON" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Jupyter Notebooks" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -676,17 +725,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1225" height="760" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40828404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40828404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2975078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2975078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39719626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -758,7 +807,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2017-01-17.GuitarCenter.html" />
     <entry file="file://$PROJECT_DIR$/ScrapeWithRequests" />
     <entry file="file://$PROJECT_DIR$/2017-01-17.SweetWater.html" />
     <entry file="file://$PROJECT_DIR$/ScrapeWithRequests.py" />
@@ -976,14 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSON/2017-03-21.SA_used.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SamAshtoJSON.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -996,9 +1036,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSON/2017-04-18.SA_used.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="12416" column="25" selection-start-line="12416" selection-start-column="25" selection-end-line="12416" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="24350" column="4" selection-start-line="24350" selection-start-column="4" selection-end-line="24350" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSON/2017-03-21.SA_used.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="26269" column="35" selection-start-line="26269" selection-start-column="35" selection-end-line="26269" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/CreatingADataProject.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="17" />
         </state>
       </provider>
     </entry>
